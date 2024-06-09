@@ -38,6 +38,9 @@
       "#folder/*": [
         "apps/folder/src/*"
       ],
+      "@common/word": [
+        "libs/word/src"
+      ],
     }
   }
 }

@@ -90,6 +90,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/folder/tsconfig.app.json"
       }
+    },
+    "word-common": {
+      "type": "library",
+      "root": "libs/word",
+      "entryFile": "index",
+      "sourceRoot": "libs/word/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/word/tsconfig.lib.json"
+      }
     }
   }
 }
