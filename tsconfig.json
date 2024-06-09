@@ -23,6 +23,9 @@
       "@common/rabbitmq": [
         "libs/rabbitmq/src"
       ],
+      "@common/mongodb": [
+        "libs/mongodb/src"
+      ],
     }
   }
 }

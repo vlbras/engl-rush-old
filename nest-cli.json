@@ -36,6 +36,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/rabbitmq/tsconfig.lib.json"
       }
+    },
+    "mongodb": {
+      "type": "library",
+      "root": "libs/mongodb",
+      "entryFile": "index",
+      "sourceRoot": "libs/mongodb/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mongodb/tsconfig.lib.json"
+      }
     }
   }
 }
