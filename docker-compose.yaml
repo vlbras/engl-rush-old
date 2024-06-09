@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: ./apps/gateway/Dockerfile
+      target: development
+      args:
+        - SERVICE_NAME=gateway
+    command: pnpm start:dev gateway
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - engl-rush-network
+  user:
+    build:
+      context: .
+      dockerfile: ./apps/user/Dockerfile
+      target: development
+      args:
+        - SERVICE_NAME=user
+    command: pnpm start:dev user
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - engl-rush-network
+networks:
+  engl-rush-network:
+    external: true

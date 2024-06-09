@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:jammy
+    ports:
+      - "27017:27017"
+    networks:
+      - engl-rush-network
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - engl-rush-network
+networks:
+  engl-rush-network:
+    name: engl-rush-network
+    driver: bridge
