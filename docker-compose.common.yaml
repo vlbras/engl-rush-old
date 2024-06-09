@@ -13,6 +13,10 @@ services:
       - "15672:15672"
     networks:
       - engl-rush-network
+  nest:
+    image: nestjs/cli
+    volumes:
+      - .:/usr/src/app
 networks:
   engl-rush-network:
     name: engl-rush-network
