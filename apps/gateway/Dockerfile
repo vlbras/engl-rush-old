@@ -13,6 +13,7 @@ COPY libs/core libs/core
 COPY libs/rabbitmq libs/rabbitmq
 
 COPY libs/user libs/user
+COPY libs/folder libs/folder
 
 COPY apps/$SERVICE_NAME apps/$SERVICE_NAME
 
