@@ -35,6 +35,9 @@
       "@common/folder": [
         "libs/folder/src"
       ],
+      "#folder/*": [
+        "apps/folder/src/*"
+      ],
     }
   }
 }

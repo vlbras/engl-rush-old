@@ -26,6 +26,18 @@ services:
       - .:/usr/src/app
     networks:
       - engl-rush-network
+  folder:
+    build:
+      context: .
+      dockerfile: ./apps/folder/Dockerfile
+      target: development
+      args:
+        - SERVICE_NAME=folder
+    command: pnpm start:dev folder
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - engl-rush-network
 networks:
   engl-rush-network:
     external: true
