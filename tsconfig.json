@@ -29,6 +29,9 @@
       "@common/user": [
         "libs/user/src"
       ],
+      "#user/*": [
+        "apps/user/src/*"
+      ],
     }
   }
 }
