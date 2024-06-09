@@ -45,6 +45,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/mongodb/tsconfig.lib.json"
       }
+    },
+    "user-common": {
+      "type": "library",
+      "root": "libs/user",
+      "entryFile": "index",
+      "sourceRoot": "libs/user/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/user/tsconfig.lib.json"
+      }
     }
   }
 }

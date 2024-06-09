@@ -26,6 +26,9 @@
       "@common/mongodb": [
         "libs/mongodb/src"
       ],
+      "@common/user": [
+        "libs/user/src"
+      ],
     }
   }
 }

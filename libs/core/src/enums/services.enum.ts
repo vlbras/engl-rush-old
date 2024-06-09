@@ -1,1 +1,3 @@
-export enum SERVICES {}
+export enum SERVICES {
+  USER = 'USER_SERVICE',
+}
