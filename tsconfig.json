@@ -20,6 +20,9 @@
       "@common/core": [
         "libs/core/src"
       ],
+      "@common/rabbitmq": [
+        "libs/rabbitmq/src"
+      ],
     }
   }
 }
