@@ -1,3 +1,4 @@
 export enum SERVICES {
   USER = 'USER_SERVICE',
+  FOLDER = 'FOLDER_SERVICE',
 }

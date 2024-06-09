@@ -32,6 +32,9 @@
       "#user/*": [
         "apps/user/src/*"
       ],
+      "@common/folder": [
+        "libs/folder/src"
+      ],
     }
   }
 }
