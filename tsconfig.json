@@ -16,6 +16,10 @@
     "strictPropertyInitialization": false,
     "noFallthroughCasesInSwitch": true,
     "useUnknownInCatchVariables": false,
-    "paths": {}
+    "paths": {
+      "@common/core": [
+        "libs/core/src"
+      ],
+    }
   }
 }
